@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Sugerencias</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" type="image/x-icon" href="h.png">
+</head>
+<body>
+	<div>
+		<p class="cabecera1">
+			<a href="PaginaPrincipal.html">Historia del arte</a>
+			<a href="Sugerencias.html" class="menu">Sugerencias</a>
+			<a href="Artistas.html" class="menu">Artistas</a>
+			<a href="ResumenEpocas.html" class="menu">Épocas</a>
+		</p>	
+	</div>
+
+	<div class="DivSug">
+		<p class="tituloInicial">Sugerencias</p>
+		<p class="textoDivArriba">Si crees que deberiamos cambiar algo en la página o hay algún dato erroneo, por favor rellena el siguiente cuestionario.</br> Gracias :)</p>
+
+		<fieldset>
+			<legend>Datos:</legend>
+			<label for="nombre"><b>Nombre y apellidos:</b></label></br>
+			<input type="text" name="nombre"></br></br>
+
+			<label for="correo"><b>Correo electrónico</b></label></br>
+			<input type="email" name="correo"></br></br>
+
+			<form><b>¿En qué parte quieres hacer la sugerencia?</b>
+				<input type="radio" name="parte" id="epocas">
+				<label for="parte" id="epocas">Épocas</label>
+				<input type="radio" name="parte" id="artistas">
+				<label for="parte" id="artistas">Artistas</label>
+			</form>
+			</br>
+			
+			<label for="resumen"><b>Escribe una breve descripción de lo que quieres sugerir:</b></label></br>
+			<input type="text" name="resumen"></br>
+		</fieldset>
+		<input type="submit" value="Enviar">
+	</div>
+</body>
+</html>
