@@ -22,24 +22,27 @@
 
 		<fieldset>
 			<legend>Datos:</legend>
-			<label for="nombre"><b>Nombre y apellidos:</b></label></br>
-			<input type="text" name="nombre"></br></br>
+			<form action="index.html" target="_self">
+				
+				<label for="nombre"><b>Nombre y apellidos:</b></label></br>
+				<input type="text" name="nombre"></br></br>
 
-			<label for="correo"><b>Correo electrónico</b></label></br>
-			<input type="email" name="correo"></br></br>
+				<label for="correo"><b>Correo electrónico</b></label></br>
+				<input type="email" name="correo"></br></br>
 
-			<form><b>¿En qué parte quieres hacer la sugerencia?</b>
-				<input type="radio" name="parte" id="epocas">
-				<label for="parte" id="epocas">Épocas</label>
-				<input type="radio" name="parte" id="artistas">
-				<label for="parte" id="artistas">Artistas</label>
-			</form>
-			</br>
+				<b>¿En qué parte quieres hacer la sugerencia?</b>
+					<input type="radio" name="parte" id="epocas">
+					<label for="parte" id="epocas">Épocas</label>
+					<input type="radio" name="parte" id="artistas">
+					<label for="parte" id="artistas">Artistas</label>
+				</br></br>
 			
-			<label for="resumen"><b>Escribe una breve descripción de lo que quieres sugerir:</b></label></br>
-			<input type="text" name="resumen"></br>
+				<label for="resumen"><b>Escribe una breve descripción de lo que quieres sugerir:</b></label></br>
+				<input type="text" name="resumen"></br></br>
+				<input type="submit" value="Enviar">
+			</form>
 		</fieldset>
-		<input type="submit" value="Enviar">
+		
 	</div>
 </body>
 </html>
