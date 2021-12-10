@@ -26,10 +26,10 @@
 			<form action="index.html" target="_self">
 				
 				<label for="nombre"><b>Nombre y apellidos:</b></label></br>
-				<input type="text" name="nombre"></br></br>
+				<input type="text" name="nombre" pattern="[A-Z][a-z]*(\s[A-Z][a-z]*)*"></br></br>
 
 				<label for="correo"><b>Correo electrónico</b></label></br>
-				<input type="email" name="correo"></br></br>
+				<input type="email" name="correo" pattern="[a-zA-Z0-9]+([._][a-zA-Z0-9]*)*@[a-z]*\.[a-z][{2, 3}"></br></br>
 
 				<b>¿En qué parte quieres hacer la sugerencia?</b>
 					<input type="radio" name="parte" id="epocas">
