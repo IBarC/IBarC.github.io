@@ -83,6 +83,20 @@ a:hover{
 	margin-bottom: 0.5%;
 }
 
+.foto6{
+	float: left;
+	margin-left: 20%;
+	margin-top: 1%;
+	margin-bottom: 0.5%;
+}
+
+.foto7{
+	float: right;
+	margin-right: 20%;
+	margin-top: 1%;
+	margin-bottom: 0.5%;
+}
+
 .DivPrincipal{
 	border:  5px outset black;
 	border-radius: 7px;
