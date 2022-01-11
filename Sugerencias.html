@@ -7,15 +7,22 @@
 	<link rel="icon" type="image/x-icon" href="h.png">
 </head>
 <body>
-	<div>
-		<p class="cabecera1">
-			<a href="index.html">Historia del arte</a>
-			<a href="Sugerencias.html" class="menu">Sugerencias</a>
-			<a href="Museos.html" class="menu">Museos</a>
-			<a href="Artistas.html" class="menu">Artistas</a>
-			<a href="ResumenEpocas.html" class="menu">Épocas</a>
-		</p>	
-	</div>
+	<header class="cabecera1">
+		<a href="index.html">Historia del arte</a>
+        <input type="checkbox" id="check">
+        <label for="check" class="mostrar-menu">
+            &#8801
+        </label>
+        <nav class="menu">
+            <a href="ResumenEpocas.html">Épocas</a> &nbsp &nbsp &nbsp
+            <a href="Artistas.html">Artistas</a> &nbsp &nbsp &nbsp
+            <a href="Museos.html">Museos</a> &nbsp &nbsp &nbsp
+            <a href="Sugerencias.html">Sugerencias</a> 
+            <label for="check" class="ocultar-menu">
+                &#215
+            </label>
+        </nav>
+	</header>
 
 	<div class="DivSug">
 		<p class="tituloInicial">Sugerencias</p>
