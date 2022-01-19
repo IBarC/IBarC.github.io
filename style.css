@@ -388,7 +388,17 @@ input[type=submit]{
 }
 
 @media screen and (max-width: 768px){
-	.navegacion, .textoinicialNav{
+
+	.navegacion{
+		display: none;
+	}
+
+
+	.table{
+		margin-right: 4.75%;
+	}
+
+	.textoinicialNav{
 		font-size: 0.8rem;
 	}
 
@@ -419,10 +429,22 @@ input[type=submit]{
 	.cabecera1{
 		font-size: 3.2rem;
 	}
+	
+	.DivArriba{
+		width: 99%;
+	}
 }
 
 @media screen and (max-width: 950px) and (min-width: 768px){
-	.navegacion, .textoinicialNav{
+	.navegacion{
+		display: none;
+	}
+
+	.table{
+		margin-right: 4.75%;
+	}
+
+	.textoinicialNav{
 		font-size: 0.9rem;
 	}
 
@@ -452,5 +474,9 @@ input[type=submit]{
 
 	.cabecera1{
 		font-size: 3.6rem;
+	}
+
+	.DivArriba{
+		width: 99%;
 	}
 }
