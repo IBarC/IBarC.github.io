@@ -164,7 +164,7 @@ a:hover{
 	text-decoration: underline;
 	text-align: left;
 	font-family: Lora;
-	font-size: 1rem;
+	font-size: 0.9rem;
 	font-weight: lighter;
 }
 
@@ -177,12 +177,12 @@ a:hover{
 	text-align: center;
 	color: black;
 	font-family: Lora;
-	font-size: 1rem;
+	font-size: 0.7rem;
 	font-weight: lighter;
 }
 
 .DivArriba{
-	width: 90%;
+	width: 89%;
 	float: right;
 	margin-top: 1%;
 	margin-bottom: 1%;
@@ -196,15 +196,20 @@ a:hover{
 	margin-right: 20%;
 }
 
-table{
-	border: 2px solid black;
+.tabla{
 	width: 90.5%;
 	float: right;
-	border-collapse: collapse;
+	margin-top: 1%;
 	margin-bottom: 1%;
 }
+
+table{
+	border: 2px solid black;
+	border-collapse: collapse;
+}
+
 td{
-	padding: 7px;
+	padding: 2%;
 }
 
 .seccionArriba{
@@ -225,7 +230,7 @@ td{
 
 .linea2{
 	background-color: #ebe6db;
-	padding: 70px;
+	padding: 5%;
 }
 
 table td:first-child{
@@ -235,10 +240,10 @@ table td:nth-child(2){
 	width: 18%;
 }
 table td:nth-child(3){
-	width: 15%;
+	width: 20%;
 }
 table td:nth-child(4){
-	width: 25%;
+	width: 30%;
 }
 table td:nth-child(5){
 	width: 7%;
@@ -393,13 +398,13 @@ input[type=submit]{
 		display: none;
 	}
 
-
-	.table{
-		margin-right: 4.75%;
+	.tabla{
+		width: 100%;
 	}
 
-	.textoinicialNav{
-		font-size: 0.8rem;
+	table{
+		font-size: 1rem;
+       overflow-x: auto;
 	}
 
 	input[type=submit], input[name=resumen], input[name=nombre], input[name=correo], fieldset, .infoArtista, .textoDivision, .menu, .linea1, .linea2{
@@ -429,7 +434,7 @@ input[type=submit]{
 	.cabecera1{
 		font-size: 3.2rem;
 	}
-	
+
 	.DivArriba{
 		width: 99%;
 	}
@@ -440,12 +445,12 @@ input[type=submit]{
 		display: none;
 	}
 
-	.table{
-		margin-right: 4.75%;
+	.tabla{
+		width: 100%;
 	}
 
-	.textoinicialNav{
-		font-size: 0.9rem;
+	table{
+		font-size: 1rem;
 	}
 
 	input[type=submit], input[name=resumen], input[name=nombre], input[name=correo], fieldset, .infoArtista, .textoDivision, .menu, .linea1, .linea2{
