@@ -317,12 +317,12 @@ table td:last-child{
 	border: 5px outset #2A422C;
 	border-radius: 7px;
 	background-color: #37573B;
-	height: 50px;
+	height: 6%;
 	color: floralwhite;
 	margin-top: 0.5%;
 	margin-left: 1%;
 	margin-right: 5%;
-	padding: 60px;
+	padding: 2%;
 	vertical-align: middle;
 	font-size: 2.3rem;
 	text-align: center;
@@ -334,12 +334,11 @@ table td:last-child{
 	border: 5px outset #2A422C;
 	border-radius: 7px;
 	background-color: #37573B;
-	height: 50px;
+	height: 6%;
 	color: floralwhite;
 	margin-top: 0.5%;
-	margin-right: 1%;
 	margin-left: 5%;
-	padding: 60px;
+	padding: 2%;
 	vertical-align: middle;
 	font-size: 2.3rem;
 	text-align: center;
@@ -351,11 +350,11 @@ table td:last-child{
 	float: left;
 	border-radius: 7px;
 	background-color: #37573B;
-	height: 50px;
+	height: 6%;
 	color: floralwhite;
 	margin-top: 0.5%;
-	margin-left: 3%;
-	padding: 60px;
+	margin-left: 8%;
+	padding: 2%;
 	vertical-align: middle;
 	font-size: 2.3rem;
 	text-align: center;
@@ -393,6 +392,9 @@ input[type=submit]{
 }
 
 @media screen and (max-width: 768px){
+	.divArtistas{
+		width: 99%;
+	}
 
 	.navegacion{
 		display: none;
@@ -432,7 +434,7 @@ input[type=submit]{
 	}
 
 	.cabecera1{
-		font-size: 3.2rem;
+		font-size: 2.6rem;
 	}
 
 	.DivArriba{
@@ -441,6 +443,10 @@ input[type=submit]{
 }
 
 @media screen and (max-width: 950px) and (min-width: 768px){
+	.divArtistas{
+		width: 99%;
+	}
+
 	.navegacion{
 		display: none;
 	}
