@@ -391,7 +391,7 @@ input[type=submit]{
 
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 600px){
 	.divArtistas{
 		width: 99%;
 	}
@@ -442,7 +442,7 @@ input[type=submit]{
 	}
 }
 
-@media screen and (min-width: 950px){
+@media screen and (max-width: 950px) {
 	.divArtistas{
 		width: 99%;
 	}
