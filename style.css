@@ -18,6 +18,27 @@ a:hover{
 	background-color: transparent;
 }
 
+.contenido{
+	width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	justify-items: center;*/
+}
+
+.botones{
+	display: flex;
+    flex-direction: row;
+	/*display: inline-flex;
+	flex-direction: row;
+	
+	font-size: 1.6rem;*/
+}
 
 .linkNav{
 	color: black;
@@ -151,11 +172,14 @@ a:hover{
 	border:  5px outset black;
 	border-radius: 7px;
 	background-color: #ebe6db;
-	height: 800px;
+	/*height: 800px;*/
 	margin-top: 1.5%;
 	margin-left: 1.5%;
 	margin-right: 1.5%;
 	font-family: Lora;
+	justify-content: center;
+	align-items: center;
+	
 }
 
 .textoinicialNav{
