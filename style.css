@@ -19,10 +19,12 @@ a:hover{
 }
 
 .contenido{
-	width: 100vw;
+	/*width: 100vw;*/
     display: flex;
     justify-content: center;
     align-items: center;
+	margin-top: 3%;
+	margin-bottom: 3%;
     /*display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -31,13 +33,48 @@ a:hover{
 	justify-items: center;*/
 }
 
+#btnEpocas{
+	margin-right: 15%;
+	font-size: 1.6rem;
+	font-family: Lora;
+	border: 2px outset #2A422C;
+	border-radius: 7px;
+	background-color: #77997b;
+	cursor: pointer;
+}
+
+#btnArtistas{
+	margin-right: 15%;
+	font-size: 1.6rem;
+	font-family: Lora;
+	border: 2px outset #2A422C;
+	border-radius: 7px;
+	background-color: #77997b;
+	cursor: pointer;
+}
+
+#btnMuseos{
+	font-size: 1.6rem;
+	font-family: Lora;
+	border: 2px outset #2A422C;
+	border-radius: 7px;
+	background-color: #77997b;
+	cursor: pointer;
+}
+
 .botones{
 	display: flex;
     flex-direction: row;
+	
 	/*display: inline-flex;
 	flex-direction: row;
 	
 	font-size: 1.6rem;*/
+}
+
+.button{
+	font-size: 100px;
+  
 }
 
 .linkNav{
@@ -416,6 +453,26 @@ input[type=submit]{
 }
 
 @media screen and (max-width: 768px){
+	.botones{
+		flex-direction: column;
+	}
+
+	#btnEpocas{
+		margin-right: 0;
+		margin-bottom: 10%;
+		font-size: 1.3rem;
+	}
+
+	#btnArtistas{
+		margin-right: 0;
+		margin-bottom: 10%;
+		font-size: 1.3rem;
+	}
+
+	#btnMuseos{
+		font-size: 1.3rem;
+	}
+	
 	.divArtistas{
 		width: 99%;
 	}
